@@ -1,0 +1,24 @@
+{
+  "name": "aboutsekhar.github.io",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aboutsekhar/aboutsekhar.github.io.git"
+  },
+  "keywords": [
+    "sekhar",
+    "cv",
+    "resume"
+  ],
+  "author": "Rajasekhar Dareddy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aboutsekhar/aboutsekhar.github.io/issues"
+  },
+  "homepage": "https://github.com/aboutsekhar/aboutsekhar.github.io#readme"
+}
