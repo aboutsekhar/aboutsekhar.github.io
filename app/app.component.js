@@ -17,7 +17,8 @@ var AppComponent = (function () {
         core_1.Component({
             selector: 'my-app',
             directives: [navbar_component_1.NavbarComponent],
-            templateUrl: 'app/app-container.html'
+            templateUrl: 'app/app-container.html',
+            styles: ['background-image:url("./background.jpg")']
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
