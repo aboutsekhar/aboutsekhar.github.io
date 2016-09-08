@@ -9,15 +9,13 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var navbar_component_1 = require('./navbar/navbar.component');
 var PageNotFoundComponent = (function () {
     function PageNotFoundComponent() {
     }
     PageNotFoundComponent = __decorate([
         core_1.Component({
-            selector: 'my-app',
-            directives: [navbar_component_1.NavbarComponent],
-            templateUrl: 'app/app-container.html'
+            selector: 'home',
+            templateUrl: 'app/home/index.html'
         }), 
         __metadata('design:paramtypes', [])
     ], PageNotFoundComponent);
