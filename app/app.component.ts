@@ -4,7 +4,6 @@ import { NavbarComponent } from './navbar/navbar.component';
   selector: 'my-app',
   directives: [NavbarComponent],
   templateUrl: 'app/app-container.html',
-  styles:['background-image:url("./background.jpg")']
 })
 export class AppComponent { 
   constructor(){
