@@ -17,6 +17,7 @@ var home_component_1 = require('./home/home.component');
 var profile_component_1 = require('./profile/profile.component');
 var messages_component_1 = require('./messages/messages.component');
 var pagenotfound_1 = require('./pagenotfound');
+var highlight_directive_1 = require('./directives/highlight.directive');
 var AppModule = (function () {
     function AppModule() {
     }
@@ -32,6 +33,7 @@ var AppModule = (function () {
                 home_component_1.HomeComponent,
                 profile_component_1.ProfileComponent,
                 messages_component_1.MessagesComponent,
+                highlight_directive_1.HighlightDirective,
                 pagenotfound_1.PageNotFoundComponent
             ],
             providers: [

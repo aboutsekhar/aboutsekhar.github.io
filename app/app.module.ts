@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { ProfileComponent } from './profile/profile.component';
 import { MessagesComponent } from './messages/messages.component';
 import { PageNotFoundComponent } from './pagenotfound';
+import { HighlightDirective } from './directives/highlight.directive';
 
 @NgModule({
   imports: [
@@ -22,6 +23,7 @@ import { PageNotFoundComponent } from './pagenotfound';
     HomeComponent,
     ProfileComponent,
     MessagesComponent,
+    HighlightDirective,
     PageNotFoundComponent
   ],
   providers: [
