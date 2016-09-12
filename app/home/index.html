@@ -1,1 +1,3 @@
-<h1 highlight>Home</h1>
+<div class="row">
+    <language *ngFor="let language of languages" [langInput]="language.language" [langDesc]="language.desc"></language>
+</div>

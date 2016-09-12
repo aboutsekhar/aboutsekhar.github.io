@@ -18,6 +18,7 @@ var profile_component_1 = require('./profile/profile.component');
 var messages_component_1 = require('./messages/messages.component');
 var pagenotfound_1 = require('./pagenotfound');
 var highlight_directive_1 = require('./directives/highlight.directive');
+var language_component_1 = require('./components/languages/language.component');
 var AppModule = (function () {
     function AppModule() {
     }
@@ -34,6 +35,7 @@ var AppModule = (function () {
                 profile_component_1.ProfileComponent,
                 messages_component_1.MessagesComponent,
                 highlight_directive_1.HighlightDirective,
+                language_component_1.LanguageComponent,
                 pagenotfound_1.PageNotFoundComponent
             ],
             providers: [

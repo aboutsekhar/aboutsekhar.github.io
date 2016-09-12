@@ -11,6 +11,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { MessagesComponent } from './messages/messages.component';
 import { PageNotFoundComponent } from './pagenotfound';
 import { HighlightDirective } from './directives/highlight.directive';
+import { LanguageComponent } from './components/languages/language.component';
 
 @NgModule({
   imports: [
@@ -24,6 +25,7 @@ import { HighlightDirective } from './directives/highlight.directive';
     ProfileComponent,
     MessagesComponent,
     HighlightDirective,
+    LanguageComponent,
     PageNotFoundComponent
   ],
   providers: [
