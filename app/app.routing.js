@@ -6,7 +6,7 @@ var appRoutes = [
     { path: 'home', redirectTo: 'home/posts' },
     { path: 'profile', component: profile_component_1.ProfileComponent },
     { path: 'messages', component: messages_component_1.MessagesComponent },
-    { path: '**', redirectTo: 'home' }
+    { path: '**', redirectTo: 'home/posts' }
 ];
 exports.appRoutingProviders = [];
 exports.routing = router_1.RouterModule.forRoot(appRoutes);
