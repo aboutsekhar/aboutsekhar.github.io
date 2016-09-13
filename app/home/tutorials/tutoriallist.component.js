@@ -9,18 +9,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var PostsContainerComponent = (function () {
-    function PostsContainerComponent() {
+var TutorialsListComponent = (function () {
+    function TutorialsListComponent() {
     }
-    PostsContainerComponent = __decorate([
+    TutorialsListComponent = __decorate([
         core_1.Component({
-            selector: 'post-container',
-            templateUrl: 'app/home/posts/container.html',
-            styleUrls: ['./app/home/posts/left-navigation.css']
+            selector: 'tut-list',
+            templateUrl: 'app/home/tutorials/index.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], PostsContainerComponent);
-    return PostsContainerComponent;
+    ], TutorialsListComponent);
+    return TutorialsListComponent;
 }());
-exports.PostsContainerComponent = PostsContainerComponent;
-//# sourceMappingURL=postcontainer.component.js.map
+exports.TutorialsListComponent = TutorialsListComponent;
+//# sourceMappingURL=tutoriallist.component.js.map

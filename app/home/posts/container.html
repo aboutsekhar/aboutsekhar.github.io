@@ -1,5 +1,11 @@
-<ul class="nav navbar-nav">
-    <li role="presentation"><a routerLink="/home/posts" routerLinkActive="active">PostList</a></li>
-    <li role="presentation"><a routerLink="/home/posts/12" routerLinkActive="active">PostDetail</a></li>
-</ul>
-<router-outlet></router-outlet>
+<div class="row">
+    <div class="col-sm-3">
+        <ul>
+            <li role="presentation"><a routerLink="/home/posts" routerLinkActive="active">Posts</a></li>
+            <li role="presentation"><a routerLink="/home/tutorials" routerLinkActive="active">Tutorials</a></li>
+        </ul>
+    </div>
+    <div class="col-sm-9">
+        <router-outlet></router-outlet>
+    </div>
+</div>
