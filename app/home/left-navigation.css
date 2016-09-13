@@ -3,6 +3,12 @@ ul{
     background-color: white;
     border-radius: 5px;
     border: 2px solid gray;
+    margin: 2px;
+    padding: 2px;
+}
+ul li{
+    padding: 5px 0;
+    border-bottom: 2px solid gray;
 }
 ul li a {
     font-weight: 300;
