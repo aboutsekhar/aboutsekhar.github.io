@@ -9,21 +9,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var posts_service_1 = require('./posts.service');
-var PostsListComponent = (function () {
-    function PostsListComponent(postService) {
-        this.postService = postService;
-        this.posts = postService.getPosts();
+var PostsContainerComponent = (function () {
+    function PostsContainerComponent() {
     }
-    PostsListComponent = __decorate([
+    PostsContainerComponent = __decorate([
         core_1.Component({
-            selector: 'postslist',
-            templateUrl: 'app/home/posts/index.html',
-            providers: [posts_service_1.PostsService]
+            selector: 'post-container',
+            templateUrl: 'app/home/container.html',
+            styleUrls: ['./app/home/left-navigation.css']
         }), 
-        __metadata('design:paramtypes', [posts_service_1.PostsService])
-    ], PostsListComponent);
-    return PostsListComponent;
+        __metadata('design:paramtypes', [])
+    ], PostsContainerComponent);
+    return PostsContainerComponent;
 }());
-exports.PostsListComponent = PostsListComponent;
-//# sourceMappingURL=postlist.component.js.map
+exports.PostsContainerComponent = PostsContainerComponent;
+//# sourceMappingURL=container.component.js.map
