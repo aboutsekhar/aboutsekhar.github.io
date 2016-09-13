@@ -15,6 +15,7 @@ var home_routing_1 = require('./home.routing');
 var postdetail_component_1 = require('./posts/postdetail.component');
 var postlist_component_1 = require('./posts/postlist.component');
 var postcontainer_component_1 = require('./posts/postcontainer.component');
+var tutoriallist_component_1 = require('./tutorials/tutoriallist.component');
 var HomeModule = (function () {
     function HomeModule() {
     }
@@ -28,7 +29,8 @@ var HomeModule = (function () {
             declarations: [
                 postlist_component_1.PostsListComponent,
                 postdetail_component_1.PostDetailComponent,
-                postcontainer_component_1.PostsContainerComponent
+                postcontainer_component_1.PostsContainerComponent,
+                tutoriallist_component_1.TutorialsListComponent
             ],
             exports: [
                 postcontainer_component_1.PostsContainerComponent

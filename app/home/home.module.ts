@@ -5,6 +5,7 @@ import { homeRouting } from './home.routing';
 import { PostDetailComponent } from './posts/postdetail.component';
 import { PostsListComponent } from './posts/postlist.component';
 import { PostsContainerComponent } from './posts/postcontainer.component';
+import { TutorialsListComponent } from './tutorials/tutoriallist.component';
 @NgModule({
   imports: [
     BrowserModule,
@@ -14,7 +15,8 @@ import { PostsContainerComponent } from './posts/postcontainer.component';
   declarations : [
     PostsListComponent ,
     PostDetailComponent,
-    PostsContainerComponent
+    PostsContainerComponent,
+    TutorialsListComponent
   ],
   exports : [
     PostsContainerComponent
