@@ -6,18 +6,20 @@ import { FormsModule }    from '@angular/forms';
 import { AppComponent }       from './app.component';
 import { routing,
          appRoutingProviders } from './app.routing';
-import { HomeComponent } from './home/home.component';
+import { HomeModule } from './home/home.module';
 import { ProfileComponent } from './profile/profile.component';
 import { MessagesComponent } from './messages/messages.component';
 import { PageNotFoundComponent } from './pagenotfound';
 import { HighlightDirective } from './directives/highlight.directive';
 import { LanguageComponent } from './components/languages/language.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   imports: [
     BrowserModule,
     FormsModule,
-    routing
+    routing,
+    HomeModule
   ],
   declarations: [
     AppComponent,

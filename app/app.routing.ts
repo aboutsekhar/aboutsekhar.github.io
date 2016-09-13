@@ -8,7 +8,7 @@ const appRoutes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'profile', component: ProfileComponent },
   { path: 'messages', component: MessagesComponent },
-  { path: '**', component: PageNotFoundComponent }
+  { path: '**', redirectTo: 'home' }
 ];
 
 export const appRoutingProviders: any[] = [

@@ -13,12 +13,13 @@ var platform_browser_1 = require('@angular/platform-browser');
 var forms_1 = require('@angular/forms');
 var app_component_1 = require('./app.component');
 var app_routing_1 = require('./app.routing');
-var home_component_1 = require('./home/home.component');
+var home_module_1 = require('./home/home.module');
 var profile_component_1 = require('./profile/profile.component');
 var messages_component_1 = require('./messages/messages.component');
 var pagenotfound_1 = require('./pagenotfound');
 var highlight_directive_1 = require('./directives/highlight.directive');
 var language_component_1 = require('./components/languages/language.component');
+var home_component_1 = require('./home/home.component');
 var AppModule = (function () {
     function AppModule() {
     }
@@ -27,7 +28,8 @@ var AppModule = (function () {
             imports: [
                 platform_browser_1.BrowserModule,
                 forms_1.FormsModule,
-                app_routing_1.routing
+                app_routing_1.routing,
+                home_module_1.HomeModule
             ],
             declarations: [
                 app_component_1.AppComponent,
