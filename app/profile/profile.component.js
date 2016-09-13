@@ -15,7 +15,8 @@ var ProfileComponent = (function () {
     ProfileComponent = __decorate([
         core_1.Component({
             selector: 'profile',
-            templateUrl: 'app/profile/index.html'
+            templateUrl: 'app/profile/index.html',
+            styleUrls: ['./app/container.css']
         }), 
         __metadata('design:paramtypes', [])
     ], ProfileComponent);
