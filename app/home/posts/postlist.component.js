@@ -19,6 +19,7 @@ var PostsListComponent = (function () {
         core_1.Component({
             selector: 'postslist',
             templateUrl: 'app/home/posts/index.html',
+            styleUrls: ['app/home/posts/container.css'],
             providers: [posts_service_1.PostsService]
         }), 
         __metadata('design:paramtypes', [posts_service_1.PostsService])
