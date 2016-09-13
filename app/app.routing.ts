@@ -5,7 +5,7 @@ import { HomeComponent } from './home/home.component';
 import { ProfileComponent } from './profile/profile.component';
 import { MessagesComponent } from './messages/messages.component';
 const appRoutes: Routes = [
-  { path: 'home', component: HomeComponent },
+  { path: 'home', redirectTo: 'home/posts' },
   { path: 'profile', component: ProfileComponent },
   { path: 'messages', component: MessagesComponent },
   { path: '**', redirectTo: 'home' }

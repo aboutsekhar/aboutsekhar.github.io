@@ -1,12 +1,13 @@
 ul{
     list-style: none;
-    background-color: black;
+    background-color: white;
     border-radius: 5px;
+    border: 2px solid gray;
 }
 ul li a {
-    font-weight: 500;
+    font-weight: 300;
     text-decoration: none;
-    color: white;
+    color: black;
     cursor: pointer;
 }
 ul li a.active {
