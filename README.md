@@ -1,1 +1,0 @@
-# aboutsekhar.github.io
