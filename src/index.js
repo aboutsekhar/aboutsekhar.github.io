@@ -1,1 +1,1 @@
-var message = 'Hi'
+var message = 'Hi!'
