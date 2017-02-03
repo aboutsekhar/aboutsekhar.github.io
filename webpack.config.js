@@ -9,7 +9,7 @@ module.exports = {
     },
     output: {
         filename: '[chunkhash].[name].js',
-        path: path.resolve(__dirname, 'docs')
+        path: path.resolve(__dirname, 'dist')
     },
     plugins: [
         new webpack.optimize.CommonsChunkPlugin({

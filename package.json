@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "portfolio",
   "scripts": {
-    "dev": "rimraf docs/ && webpack",
+    "dev": "rimraf dist/ && webpack",
     "start": "webpack-dev-server --content-base docs/"
   },
   "dependencies": {
